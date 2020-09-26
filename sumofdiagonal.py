@@ -9,8 +9,8 @@ import sys
 
 if __name__ == '__main__':
     
-
-    n = int(input().strip())
+    
+    n = int(input("Please Enter Number:").strip())
 
     arr = []
 
