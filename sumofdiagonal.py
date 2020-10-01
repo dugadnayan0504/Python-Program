@@ -20,6 +20,7 @@ if __name__ == '__main__':
    
     a = sum(arr[i][i]  for i in range(n) ) 
     print(str(a))
+    # Hello Nayan Dugad
 
 
 
