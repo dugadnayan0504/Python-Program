@@ -5,11 +5,10 @@ import re
 import sys
 
 
-#def diagonalDifference(arr):
+# def diagonalDifference(arr):
 
 if __name__ == '__main__':
-    
-    
+
     n = int(input("Please Enter Number:").strip())
 
     arr = []
@@ -17,11 +16,6 @@ if __name__ == '__main__':
     for _ in range(n):
         arr.append(list(map(int, input().rstrip().split())))
 
-   
-    a = sum(arr[i][i]  for i in range(n) ) 
+    a = sum(arr[i][i] for i in range(n))
     print(str(a))
     # Hello Nayan Dugad
-
-
-
-    
